@@ -1,0 +1,9 @@
+jump @function_end
+@function_draw_point
+load2 @local1 a2
+set2 a1 1
+save_from_register2 a1 a2
+.return 1
+@function_end
+.call @function_draw_point 65436
+halt
