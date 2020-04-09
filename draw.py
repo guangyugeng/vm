@@ -56,28 +56,20 @@ def main():
 
 
 def creat_screen():
-    #初始化pygame
     pygame.init()
 
-    #设置窗口大小并保存在screen对象中
     screen = pygame.display.set_mode((500,500))
-
-    #设置窗口的名字
     pygame.display.set_caption("My First Screen")
 
-    #游戏的主循环
     while True:
-        #给屏幕填充蓝色
         screen.fill((0,0,255))
 
-        #侦听事件
         for event in pygame.event.get():
             if event.type == pygame.QUIT:
                 #先退出pygame窗口，再退出程序
                 pygame.quit()
                 sys.exit()
 
-        #更新整个待显示的 Surface 对象到屏幕上
         pygame.display.flip()
 
 

@@ -1,6 +1,6 @@
-from axe7.x16asm import X16Asm
-from axe7.x16vm import X16Vm
-from axe7.x16preprocessor import X16Preprocessor
+from x16asm import X16Asm
+from x16vm import X16Vm
+from x16preprocessor import X16Preprocessor
 
 
 def test1():

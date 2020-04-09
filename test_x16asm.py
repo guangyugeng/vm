@@ -1,4 +1,4 @@
-from axe7.x16asm import X16Asm
+from x16asm import X16Asm
 
 
 def test1():

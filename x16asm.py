@@ -1,4 +1,3 @@
-# todo 1024 后面没有格式化
 class X16Asm:
     def __init__(self, asmStr):
         self.asmStr = asmStr
