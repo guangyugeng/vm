@@ -39,12 +39,7 @@ def main():
     while running:
         x = random.randint(0, width - 1)
         y = random.randint(0, height - 1)
-        # position = (x, y)
-        # r = random.randint(0, 255)
-        # g = random.randint(0, 255)
-        # b = random.randint(0, 255)
-        # color = (r, g, b)
-        # screen.set_at(position, color)
+
         drawPiont(x, y, screen)
 
         for event in pygame.event.get():
@@ -66,7 +61,7 @@ def creat_screen():
 
         for event in pygame.event.get():
             if event.type == pygame.QUIT:
-                #先退出pygame窗口，再退出程序
+
                 pygame.quit()
                 sys.exit()
 
@@ -77,11 +72,3 @@ if __name__ == '__main__':
     # main()
     creat_screen()
 
-    # screen = pygame.display.set_mode((13, 12))
-    # position = (1, 1)
-    # r = random.randint(0, 255)
-    # g = random.randint(0, 255)
-    # b = random.randint(0, 255)
-    # color = (r, g, b)
-    # screen.set_at(position, color)
-    # pygame.display.flip()

@@ -36,8 +36,7 @@ halt"""
     assert preAsmStr.split() == Preprocessor.pretreat().split()
 
 def __main():
-    # machine_code(asm)
-    # test1()
+
     test1()
 
     # test9()
