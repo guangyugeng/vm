@@ -17,17 +17,7 @@ class X16Vm:
 
 
     def run(self):
-        # print('run')
-
-        # self.reg[5] = 0
-        # instruction_set = {
-        #     'set': set_fuc,
-        #     'save': save_fuc,
-        #     'load': load_fuc,
-        #     'add': add_func,
-        #     'compare': compare_fuc,
-        #     'jump_if_great': jump_if_great,
-        # }
+        
         mCode = self.machineCode
         # print(mCode)
         while self.machineCode[self.reg[5]] != 255:

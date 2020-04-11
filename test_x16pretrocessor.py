@@ -31,8 +31,7 @@ add2 f1 a3 f1
 jump @function_add
 halt"""
     Preprocessor = X16Preprocessor(asmStrs)
-    print(preAsmStr)
-    print(Preprocessor.pretreat())
+
     assert preAsmStr.split() == Preprocessor.pretreat().split()
 
 def __main():

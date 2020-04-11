@@ -162,8 +162,7 @@ add2 f1 a3 f1
 jump @function_add
 halt"""
     Asm = X16Asm(asmStrs)
-    print(len(Asm.machine_code()))
-    # assert testL == Asm.machine_code()
+
     vm = X16Vm(Asm.machine_code())
     vm.run()
     assert vm.reg[0] == 15

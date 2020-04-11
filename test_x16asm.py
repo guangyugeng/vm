@@ -122,5 +122,3 @@ halt"""
 def __main():
     # machine_code(asm)
     test1()
-    # test2()
-# __main()
